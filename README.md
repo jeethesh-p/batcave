@@ -1,11 +1,1 @@
-# batcave
-name = input("Enter your name: ")
-print(name)
-import random
-n = random.randint(0,100000)
-print(n)
-from datetime import datetime
-now = datetime.now()
 
-dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
-print("date and time =", dt_string)
